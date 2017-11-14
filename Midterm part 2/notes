@@ -1,0 +1,3 @@
+Try using the <time> tag in any time object
+    When usgin the time tag use the datetime attribute(yyy-mm-ddT24:00-24:00)
+    when doing the current date you have to use javascript, do more research on this. 

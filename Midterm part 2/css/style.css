@@ -1,0 +1,172 @@
+/*shared*/
+body{
+    font-family: Verdana, Helvetica, Arial;
+    font-size:100%;
+    line-height: 150%;
+    padding:0;
+    margin:0;
+    background-color:#CCDCFF;
+}
+
+
+aside{
+    min-height:300px;
+    width:25%;
+    height:100%;
+    float:left;   
+    line-height:200%;
+    position:absolute;
+    background-color: #3273FF;
+}
+
+aside nav ul li.current a{
+    color:rgb(150, 93, 13);
+}
+
+aside a:hover{
+    font-weight:900;
+    text-decoration: underline;
+
+}
+aside a{
+    color:#FFBE32;
+    text-decoration: none;
+    line-height:250%;
+    font-weight:900;
+    text-transform:uppercase;
+    font-size:150%;
+    padding:1%;
+    
+}
+
+figure#profile-picture{
+    margin:5%;
+}
+
+figure#profile-picture img{
+    width: 100%;
+    height: 100%;
+    box-shadow:0 3px 12px #3f3d3d, 0 3px 12px #3f3d3d;
+
+}
+
+section{
+    float:right;
+    width:75%;
+    height:100%;
+   padding-top:5%;
+    padding-bottom:1.5%;
+    background:#f4f4f4;
+}
+
+section div.info-box{
+    background:#ffffff;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+a.name{
+    color:#000000;
+    font-weight:400;
+    text-decoration:none;
+    font-size: 200%;
+    padding-top:3.7%;
+    padding-left:0%;
+    padding-right:67%;
+    padding-bottom:9.5%;
+
+}
+
+p.description{
+    color:#000000;
+    font-weight:350;
+    font-size:16px;
+    padding-left: 10%;
+    padding-right:20%;
+}
+
+section li{
+    padding-top:4%;
+    padding-bottom:2%;
+    margin: 2.5%;
+    
+}
+
+footer{
+    float:right;
+    color:#000000;
+    width:100%;
+    padding-top:1%;
+    background-color:#CCDCFF;
+    font-weight:bold;
+    text-align:center;
+    
+}
+
+footer p{
+   padding:.5%;
+}
+
+div#work-info{
+    margin:0% 4% 0% 4%;
+    padding:2.5% 0% 0% 0%;
+}
+
+h3.time{
+    display:inline;
+    font-weight:400;
+    padding-left:50%;
+}
+/* Index */
+div#hello{
+    margin:5%;
+    font-size:300%;
+}
+
+div#hello h1{
+    font-weight:500;
+}
+div#intro{
+    margin:5% 5% 3% 5%;
+    line-height: 200%;
+}
+
+/* work */
+
+h3.work-position{
+    display:inline;
+    padding-left:10%;
+    font-weight:300;
+}
+
+div#work-info{
+    margin:0% 4% 0% 4%;
+    padding:2.5% 0% 0% 0%;
+}
+
+
+/* projects */
+section div#operation-denenberg-info{
+    margin:0% 4% 0% 4%;
+    padding:2.5% 0% 19% 0%;
+}
+
+section div#project-alexa-info{
+    margin:0% 4% 0% 4%;
+    padding:2.5% 0% 8.7% 0%;
+}
+
+section div#game-info{
+    margin:0% 4% 0% 4%;
+    padding:8.8% 0% 19% 0%;
+}
+section#projects li{
+    box-shadow:0 3px 12px #5f5c5c, 0 3px 12px #5f5c5c;
+    background:#ffffff;
+}
+
+section#projects nav{
+    background:#f4f4f4;
+}
