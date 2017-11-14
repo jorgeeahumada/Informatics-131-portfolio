@@ -127,7 +127,7 @@ div#work-info{
 }
 
 h3.time{
-    display:block;
+    display:inline;
     font-weight:400;
     padding-left:50%;
 }
