@@ -214,6 +214,14 @@ section#projects nav{
         height:100%;
         
     }
+
+    .topnav.responsive nav ul{
+        text-align:center;
+    }
+
+    .topnav.responsive nav ul li {
+        display:inline-block;
+    }
     .topnav.responsive a.icon {
       position:absolute;
       right: 0;
@@ -221,9 +229,8 @@ section#projects nav{
     }
 
     .topnav.responsive a {
-      float: left;
-      display: initial;
+      display:inline;
       text-align: left;
-      font-size:100%;
+      font-size:110%;
     }
   }
