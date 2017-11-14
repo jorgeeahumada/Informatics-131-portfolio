@@ -127,9 +127,10 @@ div#work-info{
 }
 
 h3.time{
-    display:inline;
+    display:block;
     font-weight:400;
     padding-left:50%;
+    min-width:900px;
 }
 /* Index */
 div#hello{
