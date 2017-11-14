@@ -19,8 +19,12 @@ aside{
     background-color: #3273FF;
 }
 
+aside li{
+    line-height:10px;
+}
+
 aside nav ul li.current a{
-    color:rgb(150, 93, 13);
+    color:rgb(95, 59, 9);
 }
 
 aside a:hover{
@@ -32,9 +36,10 @@ aside a{
     color:#FFBE32;
     text-decoration: none;
     line-height:250%;
-    font-weight:900;
+    font-weight:600;
     text-transform:uppercase;
-    font-size:150%;
+    text-align:center;
+    font-size:21px;
     padding:1%;
     
 }
@@ -96,6 +101,7 @@ section li{
     padding-top:4%;
     padding-bottom:2%;
     margin: 2.5%;
+    
     
 }
 
@@ -182,6 +188,9 @@ section#contact{
     padding-bottom:30%;
 }
 
+p#voicemail{
+    padding-left:5%;
+}
 /* responsive (hopefully) */
 .topnav .icon {
     display: none;
