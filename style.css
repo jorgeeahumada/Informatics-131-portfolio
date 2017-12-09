@@ -58,7 +58,7 @@ section{
     float:right;
     width:75%;
     height:100%;
-   padding-top:5%;
+    padding-top:5%;
     padding-bottom:1.5%;
     background:#f4f4f4;
 }
@@ -175,15 +175,21 @@ section div#game-info{
     padding:8.8% 0% 19% 0%;
 }
 section#projects li{
-    box-shadow:0 3px 12px #5f5c5c, 0 3px 12px #5f5c5c;
+    box-shadow:0 3px 6px #5f5c5c, 0 3px 6px #5f5c5c;
     background:#ffffff;
 }
+
+section#projects li:hover{
+    background: #00000010
+}
+
 
 section#projects nav{
     background:#f4f4f4;
 }
 
 /*contact*/
+
 section#contact{
     padding-bottom:30%;
 }
